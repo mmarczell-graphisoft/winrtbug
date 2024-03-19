@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "winui.csharp (Package)": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": true
+    },
+    "winui.csharp (Unpackaged)": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

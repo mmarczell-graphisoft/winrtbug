@@ -1,0 +1,8 @@
+namespace winrtcomponent_cpp
+{
+    runtimeclass Foo
+    {
+        Foo();
+        String label{ get; };
+    }
+}
