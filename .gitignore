@@ -4,3 +4,4 @@ bin/
 obj/
 Generated Files/
 packages/
+/winui.csharp/winui.csharp.csproj.user
