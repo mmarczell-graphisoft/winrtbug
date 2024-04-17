@@ -16,7 +16,7 @@
   </dependency>
 
 	<file name="winrtcomponent.cpp.dll">
-		<activatableClass name="winrtcomponent.Foo" threadingModel="both" xmlns="urn:schemas-microsoft-com:winrt.v1" />
+		<activatableClass name="winrtcomponent_cpp.Foo" threadingModel="both" xmlns="urn:schemas-microsoft-com:winrt.v1" />
 	</file>
 
 </assembly>
