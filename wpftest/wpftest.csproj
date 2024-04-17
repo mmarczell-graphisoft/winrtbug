@@ -27,8 +27,8 @@
 
 		<CsWinRTParams>
 			-input 10.0.19041.0
-			-input "$(BuildOutDir)..\..\x64\$(Configuration)\winrtcomponent.cpp\bin\winrtcomponent.cpp\winrtcomponent_cpp.winmd"
-			-output "$(IntermediateOutputPath)\net8.0-windows10.0.19041.0\win-x64\Generated Files\CsWinRT"
+			-input "$(BuildOutDir)..\..\$(PlatformTarget)\$(Configuration)\winrtcomponent.cpp\bin\winrtcomponent.cpp\winrtcomponent_cpp.winmd"
+			-output "$(IntermediateOutputPath)\$(TargetFramework)\$(RuntimeIdentifier)\Generated Files\CsWinRT"
 			-include winrtcomponent_cpp
 		</CsWinRTParams>
 	</PropertyGroup>
